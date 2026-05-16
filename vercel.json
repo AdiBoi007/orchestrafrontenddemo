@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/waitlist",
+      "destination": "https://orchestraos-mu.vercel.app/api/waitlist"
+    },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
